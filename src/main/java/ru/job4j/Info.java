@@ -4,4 +4,5 @@ public class Info {
     public static void main(String[] args) {
         System.out.println("02.12.2021");
     }
+
 }
