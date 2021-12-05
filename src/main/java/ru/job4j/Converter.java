@@ -30,26 +30,26 @@ public class Converter {
         System.out.println("1500 rubles are " + dollars + " dollars.");
         System.out.println("5 euro are " + dollar + " dollars.");
         System.out.println("10 dollars are " + euros + " euro.");
-        float in1 = 140;
-        float expected1 = 2;
-        float out1 = Converter.rubleToEuro(in1);
-        boolean passed1 = expected1 == out1;
-        System.out.println("140 rubles are 2 euro. Test result : " + passed1);
-        float in2 = 1500;
-        float expected2 = 25;
-        float out2 = Converter.rubleToDollar(in2);
-        boolean passed2 = expected2 == out2;
-        System.out.println("1500 rubles are 25 dollars. Test result : " + passed2);
-        float in3 = 5;
-        float expected3 = 6.25f;
-        float out3 = Converter.euroToDollar(in3);
-        boolean passed3 = expected3 == out3;
-        System.out.println("5 euro are 6.25 dollars. Test result : " + passed3);
-        float in4 = 10;
-        float expected4 = 8.849558f;
-        float out4 = Converter.dollarToEuro(in4);
-        boolean passed4 = expected4 == out4;
-        System.out.println("10 dollars are 8.849558 euro. Test result : " + passed4);
+        float in = 140;
+        float expected = 2;
+        float out = Converter.rubleToEuro(in);
+        boolean passed = expected == out;
+        System.out.println("140 rubles are 2 euro. Test result : " + passed);
+         in = 1500;
+         expected = 25;
+         out = Converter.rubleToDollar(in);
+         passed = expected == out;
+        System.out.println("1500 rubles are 25 dollars. Test result : " + passed);
+         in = 5;
+        expected = 6.25f;
+         out = Converter.euroToDollar(in);
+         passed = expected == out;
+        System.out.println("5 euro are 6.25 dollars. Test result : " + passed);
+         in = 10;
+         expected = 8.849558f;
+         out = Converter.dollarToEuro(in);
+        passed = expected == out;
+        System.out.println("10 dollars are 8.849558 euro. Test result : " + passed);
 
     }
 }
