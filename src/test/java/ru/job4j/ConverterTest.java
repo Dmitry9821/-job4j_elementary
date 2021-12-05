@@ -33,7 +33,7 @@ public class ConverterTest {
     }
 
     @Test
-    public void whenConvert10DlrThen8Euro() {
+    public void whenConvert10DlrThen9Euro() {
         float in = 10;
         float expected = 8.849558f;
         float out = Converter.dollarToEuro(in);
