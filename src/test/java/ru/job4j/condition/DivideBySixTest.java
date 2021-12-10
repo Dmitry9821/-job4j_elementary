@@ -13,18 +13,18 @@ public class DivideBySixTest {
     }
 
     @Test
-    public void whenNumberDivideBy3AndNotEven() {
+    public void whenNumberNoDivideBy3AndEven() {
         int in = 9;
         String result = DivideBySix.checkNumber(in);
-        String expected = "Исходное число делится на 3, но не является четным.";
+        String expected = "Исходное число не делится на 3, но является четным.";
         Assert.assertEquals(expected, result);
     }
 
     @Test
-    public void whenNumberNoDivideBy3AndEven() {
+    public void whenNumberDivideBy3AndNotEven() {
         int in = 14;
         String result = DivideBySix.checkNumber(in);
-        String expected = "Исходное число не делится на 3, но является четным.";
+        String expected = "Исходное число делится на 3, но не является четным.";
         Assert.assertEquals(expected, result);
     }
 
