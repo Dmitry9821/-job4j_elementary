@@ -24,7 +24,7 @@ public class DivideBySixTest {
     public void whenNumberDivideBy2AndEven() {
         int in = 14;
         String result = DivideBySix.checkNumber(in);
-        String expected = "Исходное число делится на 2 и является четным.";
+        String expected = "Исходное число не делится на 3, но является четным.";
         Assert.assertEquals(expected, result);
     }
 
